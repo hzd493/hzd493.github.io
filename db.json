@@ -1,0 +1,1809 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "张无忌",
+      "age": 20,
+      "sex": "男",
+      "username": "admin",
+      "password": "123456",
+      "phone": "11111111111",
+      "email": "111@qq.com",
+      "address": [
+        "江苏省常熟市常熟理工学院东南校区",
+        "江苏省常熟市常熟理工学院东湖校区"
+      ],
+      "shopcart": [
+        {
+          "id": 1,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 7,
+          "num": 4,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 4,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 49,
+          "num": 1,
+          "version": 2,
+          "color": 2
+        }
+      ],
+      "collect": [
+        {
+          "id": 4,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 29,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 49,
+          "num": 1,
+          "version": 2,
+          "color": 2
+        }
+      ],
+      "msgid": [
+        {
+          "id": 6,
+          "ifread": 0
+        },
+        {
+          "id": 8,
+          "ifread": 0
+        },
+        {
+          "id": 1,
+          "ifread": 0
+        },
+        {
+          "id": 3,
+          "ifread": 0
+        },
+        {
+          "id": 5,
+          "ifread": 0
+        },
+        {
+          "id": 7,
+          "ifread": 0
+        },
+        {
+          "id": 2,
+          "ifread": 0
+        },
+        {
+          "id": 9,
+          "ifread": 0
+        },
+        {
+          "id": 10,
+          "ifread": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "周芷若",
+      "age": 18,
+      "sex": "女",
+      "username": "kitty",
+      "password": "123456",
+      "phone": "22222222222",
+      "email": "222@qq.com",
+      "address": [
+        "江苏省常熟市常熟理工学院东南校区",
+        "江苏省常熟市常熟理工学院东湖校区"
+      ],
+      "shopcart": [
+        {
+          "id": 1,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 3,
+          "num": 2,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 7,
+          "num": 4,
+          "version": 0,
+          "color": 0
+        }
+      ],
+      "collect": [
+        {
+          "id": 2,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 4,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 29,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 12,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        }
+      ],
+      "msgid": [
+        {
+          "id": 6,
+          "ifread": 0
+        },
+        {
+          "id": 8,
+          "ifread": 0
+        },
+        {
+          "id": 1,
+          "ifread": 0
+        },
+        {
+          "id": 3,
+          "ifread": 0
+        },
+        {
+          "id": 5,
+          "ifread": 0
+        },
+        {
+          "id": 7,
+          "ifread": 0
+        },
+        {
+          "id": 4,
+          "ifread": 0
+        },
+        {
+          "id": 2,
+          "ifread": 0
+        },
+        {
+          "id": 9,
+          "ifread": 0
+        },
+        {
+          "id": 10,
+          "ifread": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "张三丰",
+      "age": 80,
+      "sex": "男",
+      "username": "jack",
+      "password": "123456",
+      "phone": "33333333333",
+      "email": "333@qq.com",
+      "address": [
+        "江苏省常熟市常熟理工学院东南校区",
+        "江苏省常熟市常熟理工学院东湖校区"
+      ],
+      "shopcart": [
+        {
+          "id": 1,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 3,
+          "num": 2,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 7,
+          "num": 4,
+          "version": 0,
+          "color": 0
+        }
+      ],
+      "collect": [
+        {
+          "id": 2,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 4,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 29,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 12,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        }
+      ],
+      "msgid": [
+        {
+          "id": 6,
+          "ifread": 0
+        },
+        {
+          "id": 8,
+          "ifread": 0
+        },
+        {
+          "id": 1,
+          "ifread": 0
+        },
+        {
+          "id": 3,
+          "ifread": 0
+        },
+        {
+          "id": 5,
+          "ifread": 0
+        },
+        {
+          "id": 7,
+          "ifread": 0
+        },
+        {
+          "id": 4,
+          "ifread": 0
+        },
+        {
+          "id": 2,
+          "ifread": 0
+        },
+        {
+          "id": 9,
+          "ifread": 0
+        },
+        {
+          "id": 10,
+          "ifread": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "谢逊",
+      "age": 60,
+      "sex": "男",
+      "username": "tom",
+      "password": "123456",
+      "phone": "44444444444",
+      "email": "444@qq.com",
+      "address": [
+        "江苏省常熟市常熟理工学院东南校区",
+        "江苏省常熟市常熟理工学院东湖校区"
+      ],
+      "shopcart": [
+        {
+          "id": 1,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 3,
+          "num": 2,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 7,
+          "num": 4,
+          "version": 0,
+          "color": 0
+        }
+      ],
+      "collect": [
+        {
+          "id": 2,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 4,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 29,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 12,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        }
+      ],
+      "msgid": [
+        {
+          "id": 6,
+          "ifread": 0
+        },
+        {
+          "id": 8,
+          "ifread": 0
+        },
+        {
+          "id": 1,
+          "ifread": 0
+        },
+        {
+          "id": 3,
+          "ifread": 0
+        },
+        {
+          "id": 5,
+          "ifread": 0
+        },
+        {
+          "id": 7,
+          "ifread": 0
+        },
+        {
+          "id": 4,
+          "ifread": 0
+        },
+        {
+          "id": 2,
+          "ifread": 0
+        },
+        {
+          "id": 9,
+          "ifread": 0
+        },
+        {
+          "id": 10,
+          "ifread": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "赵敏",
+      "age": 18,
+      "sex": "女",
+      "username": "sandy",
+      "password": "123456",
+      "phone": "55555555555",
+      "email": "555@qq.com",
+      "address": [
+        "江苏省常熟市常熟理工学院东南校区",
+        "江苏省常熟市常熟理工学院东湖校区"
+      ],
+      "shopcart": [
+        {
+          "id": 1,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 3,
+          "num": 2,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 7,
+          "num": 4,
+          "version": 0,
+          "color": 0
+        }
+      ],
+      "collect": [
+        {
+          "id": 2,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 4,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 29,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 12,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        }
+      ],
+      "msgid": [
+        {
+          "id": 6,
+          "ifread": 0
+        },
+        {
+          "id": 8,
+          "ifread": 0
+        },
+        {
+          "id": 1,
+          "ifread": 0
+        },
+        {
+          "id": 3,
+          "ifread": 0
+        },
+        {
+          "id": 5,
+          "ifread": 0
+        },
+        {
+          "id": 7,
+          "ifread": 0
+        },
+        {
+          "id": 4,
+          "ifread": 0
+        },
+        {
+          "id": 2,
+          "ifread": 0
+        },
+        {
+          "id": 9,
+          "ifread": 0
+        },
+        {
+          "id": 10,
+          "ifread": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "age": 0,
+      "sex": "男",
+      "username": "admin",
+      "password": "123",
+      "phone": "11111111111",
+      "email": "@.",
+      "address": [],
+      "shopcart": [],
+      "collect": [],
+      "msgid": [],
+      "id": 6
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "name": "小米电视4A 60英寸",
+      "introduce": "4K HDR 超高清画质 / 人工智能语音系统 / 2G+8G大存储空间 / 海量视频好内容 / 64位四核高性能处理器",
+      "price": 2999,
+      "discount": 200,
+      "num": 1,
+      "version": [
+        "32英寸",
+        "45英寸",
+        "64英寸"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/86567ac179a32fa9af05f89a45e57cbe.jpg?thumb=1&w=293&h=375&f=webp&q=90",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.37717048.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.26584325.png"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 2,
+      "name": "小米MIX Alpha",
+      "introduce": "创新环绕屏，极具未来感的智能交互体验 / 1亿像素超高清相机，超大感光元件 / 5G双卡全网通超高速网络 / 骁龙855Plus旗舰处理器 / 纳米硅基锂离子4050mAh电池，40W超级快充 / 钛合金+精密陶瓷+蓝宝石镜片前沿工艺",
+      "price": 19999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "8GB+128GB",
+        "8GB+256GB",
+        "16GB+512GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569297757.44676643.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569297752.58027060.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569297743.92695668.jpg"
+      ],
+      "comtents": [
+        {
+          "username": "tom",
+          "comtent": "不错，质量非常好",
+          "rate": 9.7
+        },
+        {
+          "username": "kitty",
+          "comtent": "非常不错，下次还会回购",
+          "rate": 9.6
+        },
+        {
+          "username": "jack",
+          "comtent": "简直太棒了，下次还来",
+          "rate": 9.5
+        },
+        {
+          "username": "rose",
+          "comtent": "真心不错，做工和质量都没得说！！！",
+          "rate": 9.4
+        },
+        {
+          "username": "hzd",
+          "comtent": "",
+          "rate": 0
+        },
+        {
+          "username": "hzd",
+          "comtent": "",
+          "rate": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "小米10至尊纪念版",
+      "introduce": "120X 超远变焦 / 120W 秒充科技 / 120Hz刷新率 + 240Hz采样率 / 骁龙865旗舰处理器 / 双模5G / 10倍混合光学变焦 / OIS光学防抖+EIS数字防抖 / 2000万超清前置相机 / 双串蝶式石墨烯基锂离子电池 / 等效4500mAh大电量 / 120W 有线秒充+50W无线秒充+10W无线反充 / WiFi 6 / 多功能NFC / 红外遥控",
+      "price": 5299,
+      "discount": 200,
+      "num": 1,
+      "version": [
+        "8GB+128GB",
+        "8GB+256GB",
+        "12GB+256GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597145789.9525714.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597145851.48099727.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597145789.84932454.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 4,
+      "name": "小米10",
+      "introduce": "骁龙865处理器 / 1亿像素8K电影相机 / 双模5G / 新一代LPDDR5内存 / 对称式立体声 / 90Hz刷新率+180Hz采样率 / UFS 3.0高速存储 / 全面适配Wi-Fi 6 / 超强VC液冷散热 / 30W极速闪充+30W无线闪充+10W无线反充 / 4780mAh大电量 / 多功能NFC",
+      "price": 4599,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "8GB+128GB",
+        "8GB+256GB",
+        "12GB+256GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494068.13077664.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494070.59196940.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494060.7822643.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 5,
+      "name": "小米10青春版",
+      "introduce": "向往的生活同款/ 50倍潜望式超远变焦 / 双模5G / 骁龙765G处理器 / 三星AMOLED原色屏 / 180Hz采样率 / 4160mAh大电池 / 多功能NFC / 红外遥控器",
+      "price": 2199,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "6GB+128GB",
+        "8GB+128GB",
+        "8GB+256GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1587873615.04256140.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1587873615.05451079.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1587873615.19082194.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 6,
+      "name": "Redmi 智能电视 X65",
+      "introduce": "全金属边框/4K超高清/MEMC运动补偿/8单元重低音音响系统",
+      "price": 3299,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "32英寸",
+        "45英寸",
+        "64英寸"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f256b81e4233333692eece77ed06ebc2.jpg?thumb=1&w=293&h=375&f=webp&q=90",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590402427.23834311.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590402427.20956967.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 7,
+      "name": "小米笔记本Pro 15.6 增强版",
+      "introduce": "全新十代酷睿处理器 / MX250独立显卡 / 100%sRGB高色域 / 全尺寸背光键盘",
+      "price": 4999,
+      "discount": 200,
+      "num": 1,
+      "version": [
+        "i5 8G 1T",
+        "i7 16G 512G",
+        "i7 16G 1T"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1577762913.31536580.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1577762913.22411755.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1577762913.22874306.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 8,
+      "name": "小米笔记本小米笔记本15.6 2019款 独显版",
+      "introduce": "独立显卡/ 英特尔四核处理器 / 最高512G高速固态硬盘 / 独立数字键盘 / 全面均衡的国民轻薄本",
+      "price": 5999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "i5 8G 独显 512G SSD",
+        "i5 16G 独显 512G SSD",
+        "i7 16G 独显 1T SSD"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553738425.08569829.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553738425.39362840.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553738425.21748190.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 9,
+      "name": "小米笔记本小米笔记本Air 12.5 2019款",
+      "introduce": "全高清屏幕 / 长续航全金属 / 超窄边框 / 像杂志一样随身携带 / 哈曼高品质扬声器",
+      "price": 3999,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "i5 4G 256G SSD",
+        "m3 4G 256G SSD",
+        "m3 4G 128G SSD"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553148442.55959372.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553148442.89894167.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553148442.57187587.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 10,
+      "name": "小米笔记本Air 13.3 2019款",
+      "introduce": "轻薄全金属机身 / MX250独立显卡 / 9.5小时超长续航 / FHD全高清屏幕 / 指纹解锁 / 兼顾办公娱乐与轻薄的高性能笔记本",
+      "price": 3999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "i5 8G 512G PCIe MX250",
+        "i7 8G 512G PCIe MX250",
+        "i5 8G 256G PCIe"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553153599.24517373.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553153599.22087482.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553153599.45022663.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 11,
+      "name": "小米手表",
+      "introduce": "能打电话、独立上网 / 压力、睡眠、身体能量监测 / 36h超长续航 / 十大专业运动模式 / 多功能NFC / 小爱同学",
+      "price": 1299,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "标准版",
+        "尊享版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595389518.61717267.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595389518.64091499.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595389518.62731017.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 12,
+      "name": "小米手表Color 运动版",
+      "introduce": "⾼分辨率AMOLED显示屏/⽀持117种主流运动模式/⽀持⼩爱同学/超长续航/NFC/轻量化设计，支持血氧功能",
+      "price": 1999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "标准版",
+        "尊享版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603252894.02282400.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603252890.90116262.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603252893.98989567.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 13,
+      "name": "米家电动剃须刀S500",
+      "introduce": "浮动贴面更干净 / 减压设计更舒适",
+      "price": 999,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "三刀网",
+        "四刀网",
+        "六刀网"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a00bdd568dbc2b02f8fe0fa8d1b46f28.jpg?thumb=1&w=293&h=375&f=webp&q=90",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572859275.37671394.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574222338.65133300.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 14,
+      "name": "Redmi K30 至尊纪念版",
+      "introduce": "120Hz弹出全面屏 / 天玑1000+旗舰处理器 / 索尼6400万四摄 / 立体声双扬声器 / 4500mAh+33W闪充 / 双模5G / 多功能NFC / 线性震动马达 / 红外遥控",
+      "price": 2999,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "8GB+128GB",
+        "8GB+256GB",
+        "12GB+256GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597138299.63458975.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597138299.64947838.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597138299.6286387.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 15,
+      "name": "Redmi 9A",
+      "introduce": "5000mAh长循环大电量 / 6.53超大护眼屏幕 / G25八核处理器 / 大音量扬声器 / 1300万 AI相机 / 人脸解锁 / 最高支持512GB存储扩展",
+      "price": 999,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "4GB+64GB",
+        "6GB+128GB",
+        "4GB+128GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.0831679.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.07921552.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.07966928.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 16,
+      "name": "Redmi K30 Pro",
+      "introduce": "双模5G / 高通骁龙865 / 弹出式超光感全面屏 /索尼 6400万高清四摄 / 8K视频拍摄 / 超大面积VC立体散热 / 4700mAh+33W疾速闪充 / 多功能NFC / 红外遥控",
+      "price": 2699,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "8GB+128GB",
+        "8GB+128GB",
+        "8GB+256GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595562604.64349718.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595562604.63551586.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595562604.62811827.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 17,
+      "name": "Redmi 10X 5G",
+      "introduce": "双5G待机/天玑820处理器/4800万流光相机+800万超广角/6.57 三星AMOLED屏幕/屏幕指纹/4520mAh长续航/红外遥控",
+      "price": 1599,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "6GB+128GB",
+        "8GB+128GB",
+        "8GB+256GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590372965.67455678.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590372965.57285391.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590372965.6059082.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 18,
+      "name": "米家保温杯弹盖版",
+      "introduce": "内胆316L不锈钢 | 超轻旋薄内胆 | 480ML大容量",
+      "price": 99,
+      "discount": 10,
+      "num": 1,
+      "version": [
+        "30L",
+        "50L",
+        "100L"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ca0940f052227d235e7de5678d106c89.jpg?thumb=1&w=293&h=375&f=webp&q=90",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601304253.78327190.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601304253.80017045.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 19,
+      "name": "Redmi Note 8",
+      "introduce": "4800万全场景四摄 / 前置1300万美颜相机 / 骁龙665处理器 / 4000mAh超长续航 / 标配18W快充 / 超线性扬声器 / 90%高屏占比 / 康宁大猩猩保护玻璃 / 6.3英寸水滴全面屏",
+      "price": 999,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "4GB+64GB",
+        "6GB+64GB",
+        "6GB+128GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567422769.05534228.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567422772.15856577.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567422775.26973236.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 20,
+      "name": "Redmi K30 5G",
+      "introduce": "双模5G / 三路并发 / 高通骁龙765G / 7nm 5G低功耗处理器 / 120Hz高帧率流速屏 / 6.67''小孔径全面屏 / 索尼6400万前后六摄 / 最高可选8GB+256GB大存储 / 4500mAh+30W快充 / 3D四曲面玻璃机身 / 多功能NFC",
+      "price": 1999,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "6GB+64GB",
+        "6GB+128GB",
+        "8GB+128GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575882211.1223535.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575882211.12343127.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575882211.215180.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 21,
+      "name": "Note 8 Pro",
+      "introduce": "6400万旗舰级全场景四摄 / 前置2000万 AI美颜相机 / G90T专业游戏芯片，液冷散热 / 6.53英寸水滴全面屏 / 4500mAh大电量 / 标配18W快充 / 康宁大猩猩保护玻璃 / 多功能NFC / 红外遥控功能 / Game Turbo2.0游戏加速",
+      "price": 1399,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "6GB+64GB",
+        "6GB+128GB",
+        "8GB+128GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585724286.14899505.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056475.49335857.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1567056477.45031034.png"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 22,
+      "name": "Redmi 7A",
+      "introduce": "4000mAh超长续航 / 骁龙8核处理器 / 标配10W快充 / AI人脸解锁 / 大字体，大音量，无线收音机 / 整机生活防泼溅 / 极简模式，亲情守护",
+      "price": 599,
+      "discount": 50,
+      "num": 1,
+      "version": [
+        "3GB+32GB",
+        "4GB+32GB",
+        "4GB+64GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1558861745.85758071.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1558861746.04153604.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1558861745.83079271.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 23,
+      "name": "Redmi K30 Pro 变焦版",
+      "introduce": "双模5G / 高通骁龙865 / 弹出式超光感全面屏 / 索尼6400万双光学防抖四摄 / 8K视频拍摄 / 30倍变焦 / 超大面积VC立体散热 / 4700mAh+33W疾速闪充 / 多功能NFC / 红外遥控",
+      "price": 2999,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "8GB+128GB变焦版",
+        "8GB+256GB变焦版",
+        "12GB+256GB变焦版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584945587.10528371.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584945587.10189155.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584945587.09264995.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 24,
+      "name": "红米手表Color",
+      "introduce": "AMOLED 高清大屏 / 14天超长续航 / 110+款个性表盘 / 多彩潮流表带 / 10大运动模式 / 5ATM防水 / 多功能NFC / 小爱同学语音助理",
+      "price": 599,
+      "discount": 50,
+      "num": 1,
+      "version": [
+        "标准版",
+        "尊享版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1577788999.16651802.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1577788999.23138881.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1577788999.16899481.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 25,
+      "name": "腾讯黑鲨游戏手机3S",
+      "introduce": "骁龙865处理器 / 双模5G / 270Hz触控采样率+120Hz屏幕刷新率 / 三星AMOLED全面屏 / 最高65W极速闪充+背部磁吸充电 / 4720mAh大容量双电池 / UFS3.1闪存+LPDDR5运存 / “三明治”液冷散热 / JoyUI 12 游戏操作系统 / 畅玩投屏",
+      "price": 3299,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "12GB+128GB",
+        "12GB+256GB",
+        "12GB+512GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595486329.61241316.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595486329.60561363.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595486329.61572041.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 26,
+      "name": "腾讯黑鲨游戏手机3",
+      "introduce": "骁龙865处理器 / 双模5G / 腾讯Solar Core游戏引擎 / 270Hz触控采样率+90Hz屏幕刷新率 / 最高65W极速闪充+背部磁吸充电 / 4720mAh大容量双电池 / UFS3.0闪存 / “三明治”液冷散热 / 屏幕压感3.0 / 游戏语音操控",
+      "price": 2999,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "12GB+128GB",
+        "12GB+256GB",
+        "12GB+512GB"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1582886376.53229232.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1582886376.53186116.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1582886376.53157705.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 27,
+      "name": "冰封散热背夹 Pro",
+      "introduce": "一秒降温、支持iOS/安卓 APP调节、多尺寸设备通用、RGB炫酷灯效、低音运行、即插即用、强效制冷",
+      "price": 299,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "三风扇",
+        "四风扇",
+        "六风扇"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1582627475.50338178.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1582627478.51315660.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1582627482.85252856.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 28,
+      "name": "米家石英表经典版",
+      "introduce": "进口机芯 / 精钢表壳 / 真皮表带/ 两年续航",
+      "price": 299,
+      "discount": 50,
+      "num": 1,
+      "version": [
+        "普通版",
+        "经典版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575965167.10272138.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575965167.1362296.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575965167.11083828.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 29,
+      "name": "RedmiBook Air 13 I5-10210Y/8G/51",
+      "introduce": "打开它，就像翻开一本杂志",
+      "price": 4599,
+      "discount": 200,
+      "num": 1,
+      "version": [
+        "i5 8G 512G SSD MX250 2G",
+        "i5 8G 1T SSD MX250 2G",
+        "i7 8G 1T SSD MX250 4G"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597115272.34681986.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597115272.34678271.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597115272.25169010.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 30,
+      "name": "米家全自动波轮洗衣机 5.5kg",
+      "introduce": "迷你机身超能洗/22分钟快速洗/一键脱水/简洁外观/安全童锁",
+      "price": 599,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "15L",
+        "20L",
+        "30L"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590394388.957824.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590394388.93386423.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590394389.04213857.png"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 31,
+      "name": "RedmiBook 13 独显",
+      "introduce": "四窄边全面屏 / 全新十代酷睿™处理器 / 全金属超轻机身 / MX250 高性能独显 / 小米互传 / 专业「飓风」散热系统 / 11小时长续航",
+      "price": 4799,
+      "discount": 200,
+      "num": 1,
+      "version": [
+        "i5 8G 512G SSD MX250 2G",
+        "i5 8G 1T SSD MX250 2G",
+        "i7 8G 1T SSD MX250 4G"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575878438.17548919.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575878438.29329555.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575878438.18342815.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 32,
+      "name": "摩摩哒摩云AI全身按摩椅",
+      "introduce": "AI智能控制，全身气囊包裹，按摩个性定制，太空舱零重力体验",
+      "price": 6099,
+      "discount": 500,
+      "num": 1,
+      "version": [
+        "普通版",
+        "经典版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602676639.32616506.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602676639.27332352.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602676639.33918932.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 33,
+      "name": "Redmi小爱触屏音箱",
+      "introduce": "热门视频平台 / 智能家居中控 / 儿童模式 / 第三代小爱同学",
+      "price": 899,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "8英寸",
+        "10英寸",
+        "12英寸"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584930592.94895287.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584930592.91415090.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584930592.87981629.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 34,
+      "name": "米家风冷对开门冰箱",
+      "introduce": "风冷无霜不结冰 / 环绕立体出风，长久锁水保鲜 / 全直流双变频，高效制冷低噪节能 / 低能耗，1天不到1度电 / 20格储物分区 / 自动恒温校准",
+      "price": 2499,
+      "discount": 300,
+      "num": 1,
+      "version": [
+        "400L",
+        "420L",
+        "450L"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570670535.54346852.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570670535.55587448.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570670535.55025901.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 35,
+      "name": "玺佳机械表·T系列 太空TR90",
+      "introduce": "360度透明黑科技 / 94个零件的悬浮机芯 / 诠释机械美学",
+      "price": 399,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "普通版",
+        "经典版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1573198113.13787281.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1573198113.118987.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1573198113.20253004.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 36,
+      "name": "小米透明电视",
+      "introduce": "55″透明OLED | 悬浮影像 ｜杜比全景声 ｜四核A73 旗舰处理器",
+      "price": 49999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "55英寸",
+        "60英寸",
+        "80英寸"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597155788.15473323.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597155788.16072152.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597155788.18224190.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 37,
+      "name": "小米电视 大师 OLED",
+      "introduce": "10.7亿原色显示 / 98.5%DCI-P3广色域 / 120Hz流速屏 / AI大师引擎 / 3D全景声，音响系统",
+      "price": 12999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "55英寸",
+        "60英寸",
+        "80英寸"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1593671513.90269727.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1593671513.89647635.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1593671513.90847236.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 38,
+      "name": "Redmi路由器 AX6",
+      "introduce": "高通6核企业级芯片 l 三千兆级无线速率 l 6路独立信号放大器",
+      "price": 999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "3天线",
+        "5天线",
+        "8天线"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597046216.42447200.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597046216.42449272.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597046216.41456400.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 39,
+      "name": "柔风 | 小米新1级空调",
+      "introduce": "",
+      "price": 2399,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "1匹",
+        "1.5匹",
+        "2匹"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1605518331.68557947.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1605518331.68557947.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1605518331.68557947.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 40,
+      "name": "小米手环 5",
+      "introduce": "14天超长续航 / 磁吸式充电 / 11种运动模式",
+      "price": 299,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "普通版",
+        "NFC版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591779698.42084692.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591779698.42297513.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591779698.41377857.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 41,
+      "name": "米家电动滑板车1S",
+      "introduce": "30km超长续航 / 25km/h最高时速 / 可视化交互仪表盘 / 双重刹车系统",
+      "price": 5999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "可折叠",
+        "不可折叠",
+        "加长版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586937333.45342874.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586937333.4832306.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586937333.45461676.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 42,
+      "name": "小米移动电源3 快充版 皮卡丘定制款",
+      "introduce": "皮卡丘联名，大电池能量；双口输出，双向快充/可方便为手环、蓝牙耳机等设备进行充电",
+      "price": 399,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "5000mAh",
+        "10000mAh",
+        "15000mAh"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603353229.05998841.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603353229.00765762.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603353222.72697097.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 43,
+      "name": "小米无线充电宝30W",
+      "introduce": "多元化场景用途，外出携带便捷/立式充电，随放随充，无线束缚/30W无线闪充，兼容Qi标准无线充电电子设备",
+      "price": 499,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "5000mAh",
+        "10000mAh",
+        "15000mAh"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1599811904.09223358.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1599811904.10148221.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1599811904.09927083.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 44,
+      "name": "小米50W二合一充电宝/充电器（1A1C）",
+      "introduce": "",
+      "price": 199,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "5000mAh",
+        "10000mAh",
+        "15000mAh"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589868780.7114353.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589868780.74861030.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589868780.72089230.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 45,
+      "name": "小米智能摄像机 云台版2K",
+      "introduce": "300万像素 / F1.4 大光圈 / AI人形侦测 / 镜头升级",
+      "price": 399,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "300万像素",
+        "500万像素",
+        "1000万像素"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585726990.53483384.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585726990.62028244.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585726990.58189077.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 46,
+      "name": "米家扫拖机器人1T",
+      "introduce": "S-cross™3D避障 | 3D VSLAM视觉导航 | 3000Pa超大吸力 | 扫拖一体设计",
+      "price": 2299,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "1500Pa吸力",
+        "2000Pa吸力",
+        "3000Pa吸力"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603854163.5218371.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603854163.49242928.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1603854155.25429959.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 47,
+      "name": "米家电烤箱",
+      "introduce": "上下独立控温 / 旋转烤叉 / 热风循环 / 40°C恒温发酵 / 120分钟定时 / 支持免定时持续运行",
+      "price": 799,
+      "discount": 100,
+      "num": 1,
+      "version": [
+        "25L",
+        "30L",
+        "40L"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.04136931.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.07563517.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.01636561.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 48,
+      "name": "小米曲面显示器",
+      "introduce": "21:9宽广全景视野 /三星面板+2K超清分辨率 / 1500R极致大曲率 / 144Hz刷新率 / 121%sRGB宽广色域 / 支持升降,旋转,壁挂",
+      "price": 1999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "27英寸",
+        "30英寸",
+        "34英寸"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1571279105.88953033.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1571279105.88628977.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1571279105.8483419.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 49,
+      "name": "九号平衡车 燃动版",
+      "introduce": "铝合金停车支架 | 可折叠拉杆 | 越野风格外观 | 22km长续航",
+      "price": 2299,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "普通版",
+        "经典版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560510426.98522616.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560510426.86159323.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560510426.99199196.jpg"
+      ],
+      "comtents": []
+    },
+    {
+      "id": 50,
+      "name": "九号平衡车 改装套件（不含平衡车）",
+      "introduce": "",
+      "price": 3999,
+      "discount": 0,
+      "num": 1,
+      "version": [
+        "普通版",
+        "经典版",
+        "豪华版"
+      ],
+      "color": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "url": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560764684.73552638.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560764684.67242583.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560764684.67767333.jpg"
+      ],
+      "comtents": []
+    }
+  ],
+  "msgs": [
+    {
+      "id": 1,
+      "content": "亲爱的精灵，感谢您让我成为您红尘的一袭战袍。为您的美好，我已怀着倾慕出发一路吃撑，赴您的不移之约【{快递公司}{运单号}】【希米洛拉旗舰店】",
+      "ifread": 0
+    },
+    {
+      "id": 2,
+      "content": "启禀大王，您指定的贡品，我们已经派专人快马加鞭给您过去了，还望您笑纳，赐好评！小的们感激不尽！【简爱亲子乐园旗舰店】",
+      "ifread": 0
+    },
+    {
+      "id": 3,
+      "content": "亲，您拍下的宝贝，付款后可及时为您安排发货，有什么问题可以联系【金地灵芝官方旗舰店】夏彩云13880532623",
+      "ifread": 0
+    },
+    {
+      "id": 4,
+      "content": "亲，您的宝贝已发货，【{快递公司}】【{运单号}】，请注意查收，有问题请联系【金地灵芝官方旗舰店】夏彩云13880532623",
+      "ifread": 0
+    },
+    {
+      "id": 5,
+      "content": "Hi,您在Veniy Jewelry购买的宝贝已发货，请注意查收，收到后如满意请给我们点亮5颗星星噢，如有问题请随时联系旺旺:veniy",
+      "ifread": 0
+    },
+    {
+      "id": 6,
+      "content": "亲，发货啦【{快递公司}】【{运单号}】有问题请联系！收到货后如果满意请打5分好评哦，打5分好评截图给客服返现金5元【蒙娜丽莎十字绣】",
+      "ifread": 0
+    },
+    {
+      "id": 7,
+      "content": "亲，发货啦!【{快递公司}】【{运单号}】，请注意查收！收到货后如满意请打5分好评哦，打5分好评截图给客服将返现金5元【艾兔小苏】",
+      "ifread": 0
+    },
+    {
+      "id": 8,
+      "content": "亲，您的商品已经由{快递公司}发出，请您保持通迅畅通注意查收，如果有任何不满意，请联系我们【大肚腩的美衣铺】淘代码D7032508",
+      "ifread": 0
+    },
+    {
+      "id": 9,
+      "content": "亲，您的宝贝已经发货了，由{快递公司}发出运单号：{运单号}，请保持通迅畅通，注意查收 有任何问题请联系我们【布里克眼镜店】",
+      "ifread": 0
+    },
+    {
+      "id": 10,
+      "content": "亲，您的宝贝已发货，【{快递公司}】【{运单号}】，需退换请在7天内联系客服，若满意请给我们5分+10字好评，返现金5元哦！关注官方微淘：http://h5.m.taobao.com【牛品特卖会】",
+      "ifread": 0
+    }
+  ]
+}
