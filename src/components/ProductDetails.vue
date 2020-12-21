@@ -80,7 +80,7 @@
       </Modal>
       <ul class="address">
         <li v-for="(item,index) in address" @click="chooseAddress(index)" :style="{border:activeAddress[index]}" :key="index">
-         {{ item }}
+          {{ item }}
           <!-- <input type="radio" name="address"> -->
         </li>
       </ul>
@@ -102,6 +102,13 @@
             <Icon type="md-checkmark-circle-outline" size="20"/>{{ item }}
           </li>
         </router-link>
+      </ul>
+    </div>
+    <div class="pictures">
+      <ul class="pic">
+        <li v-for="(item,index) in good.url" :key="index">
+          <img :src="item">
+        </li>
       </ul>
     </div>
   </div>
@@ -311,13 +318,13 @@ export default {
         this.$store.state.currentUser
       )
     },
-    updateGood () {
-      var id = this.$store.state.currentGood.id
-      this.$axios.patch(
-        'http://localhost:3000/goods/' + id,
-        this.$store.state.currentGood
-      )
-    },
+    // updateGood () {
+    //   var id = this.$store.state.currentGood.id
+    //   this.$axios.patch(
+    //     'http://localhost:3000/goods/' + id,
+    //     this.$store.state.currentGood
+    //   )
+    // },
     addToCart () {
       if (JSON.parse(localStorage.getItem('iflogin')) === 0) {
         this.$store.state.ifLogin = false
@@ -506,10 +513,20 @@ export default {
   list-style-type: none;
   height: 230px;
 }
+.pic{
+  list-style-type: none;
+  height: 2400px;
+}
+.pic li{
+  float: left;
+}
+.pictures{
+  width: 800px;
+  margin: auto;
+}
 .details{
   width: 700px;
-  height: 1500px;
-  /* border: 1px solid red; */
+  height: 1700px;
   float: right;
 }
 .list li img{
@@ -531,7 +548,7 @@ export default {
 }
 .container{
   width: 450px;
-  height: 1450px;
+  height: 1700px;
   float: left;
 }
 .img{
@@ -541,7 +558,7 @@ export default {
 #product-details{
   width: 1226px;
   margin: auto;
-  height: 2000px;
+  height: 4250px;
   background-color: #f5f5f5;
 }
 h3,h4{

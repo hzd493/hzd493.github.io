@@ -64,10 +64,6 @@ export default {
     }
   },
   methods: {
-    test () {
-      // console.log(JSON.stringify(this.$store.state.currentUser))
-      // console.log(this.user.msgid.length)
-    },
     ok () {
       var error = []
       var index1 = this.tempUser.email.indexOf('@')

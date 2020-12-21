@@ -10,35 +10,6 @@
             </li>
           </router-link>
         </ul>
-        <!-- <Menu mode="vertical" width=234px style="z-index: 1" @mouseover="select()">
-          <MenuItem name="1" @click="ifDisplay=true" >
-            小米手机<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-          <MenuItem name="2" @click="select">
-            红米手机<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-          <MenuItem name="3" @click="ifDisplay=true">
-            家电<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-          <MenuItem name="4" @click="ifDisplay=true">
-            显示器<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-          <MenuItem name="5" @click="ifDisplay=true">
-            电视<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-          <MenuItem name="6" @click="ifDisplay=true">
-            穿戴<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-          <MenuItem name="7" @click="ifDisplay=true">
-            笔记本<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-          <MenuItem name="8" @click="ifDisplay=true">
-            路由器<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-          <MenuItem name="9" @click="ifDisplay=true">
-            耳机<Icon type="ios-arrow-dropright" size="16"/>
-          </MenuItem>
-        </Menu> -->
         <div class="hidemenu" v-show="ifDisplay">
           <div v-for="(item,index) in hidelist" :key="index">
             <router-link to="/product-details"><img :src="item.url[1]" @click="deliverDetails(index)"></router-link>

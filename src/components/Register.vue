@@ -98,10 +98,11 @@ export default {
     judge (user) {
       var error = []
       var users = []
+      var index1 = user.email.indexOf('@')
+      var index2 = user.email.indexOf('.')
       this.$axios.get('http://localhost:3000/users').then((data) => {
         users = data['data']
         for (var i = 0; i < users.length; i++) {
-          console.log(i)
           if (user.username === users[i].username) {
             this.ifShow.ifShowUsername = true
             error.push('exised username\n')
@@ -109,37 +110,43 @@ export default {
             break
           }
         }
+        if (this.country.length === 0) {
+          this.ifShow.ifShowCity = true
+          error.push('wrong country\n')
+        }
+        if (user.username.length === 0) {
+          this.ifShow.ifShowUsername = true
+          error.push('wrong username\n')
+        }
+        if (user.phone.length !== 11) {
+          this.ifShow.ifShowPhone = true
+          error.push('wrong phone\n')
+        }
+        if (user.password.length === 0 || this.passwordcopy.length === 0 || user.password !== this.passwordcopy) {
+          this.ifShow.ifShowPass = true
+          error.push('wrong password\n')
+        }
+        if (user.email.length === 0 || index1 === -1 || index2 === -1 || index1 > index2) {
+          this.ifShow.ifShowEmail = true
+          error.push('wrong email\n')
+        }
+        if (error.length > 0) {
+          this.errors = error
+          return 0
+        }
+        return 1
+      }).then((res) => {
+        if (res === 1) {
+          this.$axios.post(
+            'http://localhost:3000/users',
+            this.newUser
+          )
+          // eslint-disable-next-line no-undef
+          swal('注册成功', '注册成功，请前往登录', 'success')
+          this.reset()
+          this.$router.push('/login')
+        }
       })
-      var index1 = user.email.indexOf('@')
-      var index2 = user.email.indexOf('.')
-      if (this.country.length === 0) {
-        this.ifShow.ifShowCity = true
-        error.push('wrong country\n')
-      }
-      if (user.username.length === 0) {
-        this.ifShow.ifShowUsername = true
-        error.push('wrong username\n')
-      }
-      if (user.phone.length !== 11) {
-        this.ifShow.ifShowPhone = true
-        error.push('wrong phone\n')
-      }
-      if (user.password.length === 0 || this.passwordcopy.length === 0 || user.password !== this.passwordcopy) {
-        this.ifShow.ifShowPass = true
-        error.push('wrong password\n')
-      }
-      if (user.email.length === 0 || index1 === -1 || index2 === -1 || index1 > index2) {
-        this.ifShow.ifShowEmail = true
-        error.push('wrong email\n')
-      }
-      if (error.length > 0) {
-        this.errors = error
-        // console.log(this.errors)
-        return 0
-      }
-      return 1
-      // console.log(error)
-      // console.log(user.username)
     },
     register () {
       this.ifShow = {
@@ -149,22 +156,7 @@ export default {
         ifShowPass: false,
         ifShowCity: false
       }
-      var error = this.errors
-      var flag = this.judge(this.newUser)
-      console.log(flag)
-      if (flag === 1) {
-        this.$axios.post(
-          'http://localhost:3000/users',
-          this.newUser
-        )
-        // eslint-disable-next-line no-undef
-        swal('注册成功', '注册成功，请前往登录', 'success')
-        this.reset()
-        this.$router.push('/login')
-      } else {
-        // eslint-disable-next-line no-undef
-        swal('注册失败', error.splice(',').join(''), 'error')
-      }
+      this.judge(this.newUser)
     },
     reset () {
       this.newUser = {

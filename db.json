@@ -15,39 +15,29 @@
       ],
       "shopcart": [
         {
-          "id": 1,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 7,
-          "num": 4,
-          "version": 0,
-          "color": 0
-        },
-        {
           "id": 4,
           "num": 1,
-          "version": 0,
-          "color": 0
+          "version": [
+            "8GB+128GB",
+            "8GB+256GB",
+            "12GB+256GB"
+          ],
+          "color": [
+            "灰色",
+            "白色",
+            "黑色"
+          ]
         },
         {
-          "id": 49,
+          "id": 42,
           "num": 1,
-          "version": 2,
-          "color": 2
+          "version": 0,
+          "color": 0
         }
       ],
       "collect": [
         {
           "id": 4,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 29,
           "num": 1,
           "version": 0,
           "color": 0
@@ -69,10 +59,6 @@
           "ifread": 0
         },
         {
-          "id": 1,
-          "ifread": 0
-        },
-        {
           "id": 3,
           "ifread": 0
         },
@@ -81,19 +67,7 @@
           "ifread": 0
         },
         {
-          "id": 7,
-          "ifread": 0
-        },
-        {
           "id": 2,
-          "ifread": 0
-        },
-        {
-          "id": 9,
-          "ifread": 0
-        },
-        {
-          "id": 10,
           "ifread": 0
         }
       ]
@@ -510,8 +484,8 @@
       "name": "",
       "age": 0,
       "sex": "男",
-      "username": "admin",
-      "password": "123",
+      "username": "admin2",
+      "password": "111111111",
       "phone": "11111111111",
       "email": "@.",
       "address": [],
@@ -588,16 +562,6 @@
           "username": "rose",
           "comtent": "真心不错，做工和质量都没得说！！！",
           "rate": 9.4
-        },
-        {
-          "username": "hzd",
-          "comtent": "",
-          "rate": 0
-        },
-        {
-          "username": "hzd",
-          "comtent": "",
-          "rate": 0
         }
       ]
     },

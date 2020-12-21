@@ -200,7 +200,9 @@ export default {
               for (i = 0; i < this.lists.length; i++) {
                 var temp = {
                   id: this.lists[i]['id'],
-                  num: this.lists[i]['num']
+                  num: this.lists[i]['num'],
+                  version: this.lists[i]['version'],
+                  color: this.lists[i]['color']
                 }
                 newShopcart.push(temp)
               }
