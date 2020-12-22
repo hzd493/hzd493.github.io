@@ -190,6 +190,7 @@ export default {
               )
               for (var i = 0; i < this.choosed.length; i++) {
                 this.lists.splice(this.choosed[i], 1)
+                this.shopcart.splice(this.choosed[i], 1)
                 for (var j = i; j < this.choosed.length; j++) {
                   if (this.choosed[j] > this.choosed[i]) {
                     this.choosed[j]--
@@ -201,8 +202,8 @@ export default {
                 var temp = {
                   id: this.lists[i]['id'],
                   num: this.lists[i]['num'],
-                  version: this.lists[i]['version'],
-                  color: this.lists[i]['color']
+                  version: this.shopcart[i].version,
+                  color: this.shopcart[i].color
                 }
                 newShopcart.push(temp)
               }

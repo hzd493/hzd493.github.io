@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "name": "张无忌",
+      "name": "张明",
       "age": 20,
       "sex": "男",
       "username": "admin",
@@ -15,38 +15,38 @@
       ],
       "shopcart": [
         {
-          "id": 4,
+          "id": 42,
+          "num": 1,
+          "version": 0,
+          "color": 0
+        },
+        {
+          "id": 2,
+          "num": 1,
+          "version": 2,
+          "color": 0
+        },
+        {
+          "id": 3,
+          "num": 1,
+          "version": 2,
+          "color": 0
+        }
+      ],
+      "collect": [
+        {
+          "id": 49,
           "num": 1,
           "version": [
-            "8GB+128GB",
-            "8GB+256GB",
-            "12GB+256GB"
+            "普通版",
+            "经典版",
+            "豪华版"
           ],
           "color": [
             "灰色",
             "白色",
             "黑色"
           ]
-        },
-        {
-          "id": 42,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        }
-      ],
-      "collect": [
-        {
-          "id": 4,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 49,
-          "num": 1,
-          "version": 2,
-          "color": 2
         }
       ],
       "msgid": [
@@ -65,16 +65,12 @@
         {
           "id": 5,
           "ifread": 0
-        },
-        {
-          "id": 2,
-          "ifread": 0
         }
       ]
     },
     {
       "id": 2,
-      "name": "周芷若",
+      "name": "吴倩",
       "age": 18,
       "sex": "女",
       "username": "kitty",
@@ -176,8 +172,8 @@
     },
     {
       "id": 3,
-      "name": "张三丰",
-      "age": 80,
+      "name": "张伟",
+      "age": 21,
       "sex": "男",
       "username": "jack",
       "password": "123456",
@@ -275,224 +271,6 @@
           "ifread": 0
         }
       ]
-    },
-    {
-      "id": 4,
-      "name": "谢逊",
-      "age": 60,
-      "sex": "男",
-      "username": "tom",
-      "password": "123456",
-      "phone": "44444444444",
-      "email": "444@qq.com",
-      "address": [
-        "江苏省常熟市常熟理工学院东南校区",
-        "江苏省常熟市常熟理工学院东湖校区"
-      ],
-      "shopcart": [
-        {
-          "id": 1,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 3,
-          "num": 2,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 7,
-          "num": 4,
-          "version": 0,
-          "color": 0
-        }
-      ],
-      "collect": [
-        {
-          "id": 2,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 4,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 29,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 12,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        }
-      ],
-      "msgid": [
-        {
-          "id": 6,
-          "ifread": 0
-        },
-        {
-          "id": 8,
-          "ifread": 0
-        },
-        {
-          "id": 1,
-          "ifread": 0
-        },
-        {
-          "id": 3,
-          "ifread": 0
-        },
-        {
-          "id": 5,
-          "ifread": 0
-        },
-        {
-          "id": 7,
-          "ifread": 0
-        },
-        {
-          "id": 4,
-          "ifread": 0
-        },
-        {
-          "id": 2,
-          "ifread": 0
-        },
-        {
-          "id": 9,
-          "ifread": 0
-        },
-        {
-          "id": 10,
-          "ifread": 0
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "赵敏",
-      "age": 18,
-      "sex": "女",
-      "username": "sandy",
-      "password": "123456",
-      "phone": "55555555555",
-      "email": "555@qq.com",
-      "address": [
-        "江苏省常熟市常熟理工学院东南校区",
-        "江苏省常熟市常熟理工学院东湖校区"
-      ],
-      "shopcart": [
-        {
-          "id": 1,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 3,
-          "num": 2,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 7,
-          "num": 4,
-          "version": 0,
-          "color": 0
-        }
-      ],
-      "collect": [
-        {
-          "id": 2,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 4,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 29,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 12,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        }
-      ],
-      "msgid": [
-        {
-          "id": 6,
-          "ifread": 0
-        },
-        {
-          "id": 8,
-          "ifread": 0
-        },
-        {
-          "id": 1,
-          "ifread": 0
-        },
-        {
-          "id": 3,
-          "ifread": 0
-        },
-        {
-          "id": 5,
-          "ifread": 0
-        },
-        {
-          "id": 7,
-          "ifread": 0
-        },
-        {
-          "id": 4,
-          "ifread": 0
-        },
-        {
-          "id": 2,
-          "ifread": 0
-        },
-        {
-          "id": 9,
-          "ifread": 0
-        },
-        {
-          "id": 10,
-          "ifread": 0
-        }
-      ]
-    },
-    {
-      "name": "",
-      "age": 0,
-      "sex": "男",
-      "username": "admin2",
-      "password": "111111111",
-      "phone": "11111111111",
-      "email": "@.",
-      "address": [],
-      "shopcart": [],
-      "collect": [],
-      "msgid": [],
-      "id": 6
     }
   ],
   "goods": [

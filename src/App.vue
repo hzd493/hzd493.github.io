@@ -22,9 +22,9 @@ export default {
         this.$store.state.ifLogin = false
       } else {
         this.$store.state.ifLogin = true
+        this.$store.state.currentUser = JSON.parse(localStorage.getItem('user'))
       }
       // this.$store.state.ifLogin = JSON.parse(localStorage.getItem("iflogin"))
-      this.$store.state.currentUser = JSON.parse(localStorage.getItem('user'))
     }
   },
   mounted () {

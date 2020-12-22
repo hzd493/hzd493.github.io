@@ -255,6 +255,10 @@ export default {
       this.currentUrl = this.good.url[index]
     },
     ok () {
+      if (this.$store.state.ifLogin === false) {
+        this.$router.push('/login')
+        return
+      }
       if (this.newAddress.length === 0) {
         // eslint-disable-next-line no-undef
         swal('添加失败', '地址不能为空', 'error')
@@ -318,13 +322,13 @@ export default {
         this.$store.state.currentUser
       )
     },
-    // updateGood () {
-    //   var id = this.$store.state.currentGood.id
-    //   this.$axios.patch(
-    //     'http://localhost:3000/goods/' + id,
-    //     this.$store.state.currentGood
-    //   )
-    // },
+    updateGood () {
+      var id = this.$store.state.currentGood.id
+      this.$axios.patch(
+        'http://localhost:3000/goods/' + id,
+        this.$store.state.currentGood
+      )
+    },
     addToCart () {
       if (JSON.parse(localStorage.getItem('iflogin')) === 0) {
         this.$store.state.ifLogin = false
