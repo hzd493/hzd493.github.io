@@ -6,7 +6,7 @@
     <h6>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</h6>
     <Table ref="selection" :columns="columns" :data="lists">
       <template slot-scope="{ row, index }" slot="select">
-        <input type="checkbox" :value="index" v-model="choosed">
+        <input type="checkbox" v-model="choosed" :value="index" @change="watch" :key="index">
       </template>
       <template slot-scope="{ row, index }" slot="version">
         {{ row.version[shopcart[index].version] }}
@@ -31,13 +31,12 @@
       </template>
     </Table>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    全选：<input type="checkbox" style="margin-top:15px" @click="select">
+    全选：<input type="checkbox" style="margin-top:15px" v-model="selectAll" @change="select">
     <div class="clear">
       <router-link to="/">继续购物</router-link>
       共<span>{{total}}</span>件商品，已选择<span>{{ choosed.length }}</span>件，
       <span>合计：<h3>{{ getTotalPrice }}</h3>元</span>
       <Button shape="circle" @click="buy()">结算</Button>
-      <!-- <p @click="test">123</p> -->
     </div>
   </div>
 </template>
@@ -48,6 +47,7 @@ export default {
     return {
       count: 0,
       totalPrice: 0,
+      selectAll: false,
       lists: [],
       choosed: [],
       shopcart: [],
@@ -97,12 +97,21 @@ export default {
     }
   },
   methods: {
-    // test () {
-
-    // },
+    watch () {
+      if (this.choosed.length === this.lists.length) {
+        this.selectAll = true
+      } else {
+        this.selectAll = false
+      }
+    },
     select () {
-      this.count++
-      if (this.count % 2 === 1) {
+      if (this.selectAll === true) {
+        if (this.lists.length === 0) {
+          this.selectAll = false
+          // eslint-disable-next-line no-undef
+          swal('失败', '当前无商品', 'error')
+          return
+        }
         var temp = []
         for (var i = 0; i < this.lists.length; i++) {
           temp[i] = i
@@ -158,6 +167,11 @@ export default {
       })
     },
     buy () {
+      if (this.choosed.length === 0) {
+        // eslint-disable-next-line no-undef
+        swal('失败', '请先勾选商品', 'error')
+        return
+      }
       // eslint-disable-next-line no-undef
       swal(
         {
@@ -188,6 +202,7 @@ export default {
                   confirmButtonText: '确定'
                 }
               )
+              this.selectAll = false
               for (var i = 0; i < this.choosed.length; i++) {
                 this.lists.splice(this.choosed[i], 1)
                 this.shopcart.splice(this.choosed[i], 1)

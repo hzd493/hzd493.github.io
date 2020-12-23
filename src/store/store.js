@@ -9,8 +9,5 @@ export const store = new Vuex.Store({
     currentGood: {},
     searchKey: '',
     searchResults: []
-  },
-  getters: {
-
   }
 })

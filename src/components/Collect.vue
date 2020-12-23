@@ -6,7 +6,7 @@
     <h6>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</h6>
     <Table ref="selection" :columns="columns" :data="lists">
       <template slot-scope="{ row, index }" slot="select">
-        <input type="checkbox" :value="index" v-model="choosed">
+        <input type="checkbox" :value="index" v-model="choosed" @change="watch">
       </template>
       <template slot-scope="{ row, index }" slot="version">
         {{ row.version[collect[index].version] }}
@@ -37,7 +37,6 @@
       共<span>{{total}}</span>件商品，已选择<span>{{ choosed.length }}</span>件，
       <span>合计：<h3>{{ getTotalPrice }}</h3>元</span>
       <Button shape="circle" @click="buy()">结算</Button>
-      <!-- <p @click="test">123</p> -->
     </div>
   </div>
 </template>
@@ -97,9 +96,12 @@ export default {
     }
   },
   methods: {
-    test () {
-      console.log(this.choosed)
-      console.log(this.lists.length)
+    watch () {
+      if (this.choosed.length === this.lists.length) {
+        this.selectAll = true
+      } else {
+        this.selectAll = false
+      }
     },
     select () {
       this.count++

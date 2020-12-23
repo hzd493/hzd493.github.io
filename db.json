@@ -13,46 +13,19 @@
         "江苏省常熟市常熟理工学院东南校区",
         "江苏省常熟市常熟理工学院东湖校区"
       ],
-      "shopcart": [
-        {
-          "id": 42,
-          "num": 1,
-          "version": 0,
-          "color": 0
-        },
-        {
-          "id": 2,
-          "num": 1,
-          "version": 2,
-          "color": 0
-        },
-        {
-          "id": 3,
-          "num": 1,
-          "version": 2,
-          "color": 0
-        }
-      ],
+      "shopcart": [],
       "collect": [
         {
           "id": 49,
           "num": 1,
-          "version": [
-            "普通版",
-            "经典版",
-            "豪华版"
-          ],
-          "color": [
-            "灰色",
-            "白色",
-            "黑色"
-          ]
+          "version": 1,
+          "color": 1
         }
       ],
       "msgid": [
         {
           "id": 6,
-          "ifread": 0
+          "ifread": 1
         },
         {
           "id": 8,
@@ -60,7 +33,7 @@
         },
         {
           "id": 3,
-          "ifread": 0
+          "ifread": 1
         },
         {
           "id": 5,
@@ -340,6 +313,11 @@
           "username": "rose",
           "comtent": "真心不错，做工和质量都没得说！！！",
           "rate": 9.4
+        },
+        {
+          "username": "admin",
+          "comtent": "真好",
+          "rate": "9.7"
         }
       ]
     },
